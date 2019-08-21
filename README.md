@@ -15,6 +15,6 @@ A PocketMine-MP Plugin | Repair
 ```php
 use Repair\Util;
 
-$price = new Util(\pocketmine\item\Durable);
+$price = Util::getTieredToolPrice(\pocketmine\item\Durable);
 ```
 를 이용해서 얻어오시면 됩니다.
