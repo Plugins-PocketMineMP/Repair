@@ -1,0 +1,9 @@
+name: Repair
+author: alvin0319
+main: Repair\Repair
+version: 1.0.0
+api: 3.0.0
+
+commands:
+  수리:
+    description: 수리 명령어입니다.
